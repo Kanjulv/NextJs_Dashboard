@@ -11,12 +11,9 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      
-      <div>Hello, World!</div>
-
-      <div>Hello, World!</div>
-
-      <div>Hello, World!</div>
+      <DefaultLayout>
+        <ECommerce />
+      </DefaultLayout>
     </>
   );
 }
